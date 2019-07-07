@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNt-Q8-nKC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8O4-bW-IUp">
+                                        <rect key="frame" x="76" y="237" width="169" height="95"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Playz1x" translatesAutoresizingMaskIntoConstraints="NO" id="ELy-PW-XV9">
+                                                <rect key="frame" x="0.0" y="0.0" width="169" height="95"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="169" id="6WG-2F-cmQ"/>
+                                                    <constraint firstAttribute="height" constant="95" id="vA3-Ho-M1F"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Epx-bq-6tX">
+                                        <rect key="frame" x="70" y="523" width="180" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devsmen 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02a-gL-4Dx">
+                                                <rect key="frame" x="0.0" y="0.0" width="180" height="20"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="hyT-bV-JKC"/>
+                                                    <constraint firstAttribute="width" constant="180" id="wi9-rl-jR8"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="02a-gL-4Dx" secondAttribute="bottom" id="CBa-EQ-NUl"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8O4-bW-IUp" firstAttribute="leading" secondItem="qNt-Q8-nKC" secondAttribute="leading" constant="76" id="Ayt-mS-l1S"/>
+                                    <constraint firstAttribute="trailing" secondItem="8O4-bW-IUp" secondAttribute="trailing" constant="75" id="EyK-f5-4mS"/>
+                                    <constraint firstItem="8O4-bW-IUp" firstAttribute="top" secondItem="qNt-Q8-nKC" secondAttribute="top" constant="237" id="MmH-rr-nCs"/>
+                                    <constraint firstAttribute="bottom" secondItem="Epx-bq-6tX" secondAttribute="bottom" constant="25" id="SX0-ua-u5f"/>
+                                    <constraint firstItem="Epx-bq-6tX" firstAttribute="leading" secondItem="qNt-Q8-nKC" secondAttribute="leading" constant="70" id="vex-7B-85z"/>
+                                    <constraint firstAttribute="trailing" secondItem="Epx-bq-6tX" secondAttribute="trailing" constant="70" id="wbJ-Rf-yAW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qNt-Q8-nKC" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="1tY-t4-uTc"/>
+                            <constraint firstItem="qNt-Q8-nKC" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="68H-yh-CKn"/>
+                            <constraint firstItem="qNt-Q8-nKC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ow6-dK-EBg"/>
+                            <constraint firstItem="qNt-Q8-nKC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b9S-XM-Rf8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Playz1x" width="338" height="190"/>
+    </resources>
+</document>

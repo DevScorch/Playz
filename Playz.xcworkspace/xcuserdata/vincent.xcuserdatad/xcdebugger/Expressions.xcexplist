@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static CategoryModel.transformCategory(title:dict:):CategoryModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FollowObserver.followAction(withUser:):FollowObserver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "key">
+            </PersistentString>
+            <PersistentString
+               value = "UserObserver().CURRENT_USER!.uid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FollowObserver.isFollowing(userId:completed:):FollowObserver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserObserver().CURRENT_USER!.uid">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in PostObserver.observePosts(completion:):PostsObserver.swift">
+      </ContextState>
+      <ContextState
+         contextName = "OnClickCategoryViewController.collectionView(_:cellForItemAt:):OnClickCategoryViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VisitUserCell.updateView():VisitUserCell.swift">
+      </ContextState>
+      <ContextState
+         contextName = "CategoryModel.videos.getter:CategoryModel.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FeedObserver.getRecentFeed(withId:start:limit:completionHandler:):FeedObserver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.id">
+            </PersistentString>
+            <PersistentString
+               value = "item.key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FollowObserver.followAction(withUser:):FollowObserver.swift">
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in PostObserver.observePost(withId:completion:):PostsObserver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "id">
+            </PersistentString>
+            <PersistentString
+               value = "snapshot.value">
+            </PersistentString>
+            <PersistentString
+               value = "DataEventType.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "OnClickCategoryViewController.collectionView(_:viewForSupplementaryElementOfKind:at:):OnClickCategoryViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "category">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in FollowObserver.isFollowing(userId:completed:):FollowObserver.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "userId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CategoryCell.categoryLabel_TouchUpInside():CategoryCell.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

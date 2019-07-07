@@ -1,0 +1,6 @@
+framework module Pods_Playz {
+  umbrella header "Pods-Playz-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Playz/Database/Utilities/AuthService.swift"
+            timestampString = "564526423.678314"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "setUserInfomation(profileImageUrl:username:email:uid:onSuccess:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Playz/Database/Utilities/AuthService.swift"
+            timestampString = "564526423.678618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "addUserToDatabaseTroughSocial(uid:profilePictureUrl:email:displayName:oncompletion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in static Playz.AuthService.addUserToDatabaseTroughSocial(uid: Swift.String, profilePictureUrl: Swift.String, email: Swift.String, displayName: Swift.String, oncompletion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Playz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johan/Documents/Development/IOS/Playz-Ios/Playz/Playz/Database/Utilities/AuthService.swift"
+                  timestampString = "564526424.1058789"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "502">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in static Playz.AuthService.addUserToDatabaseTroughSocial(uid: Swift.String, profilePictureUrl: Swift.String, email: Swift.String, displayName: Swift.String, oncompletion: () -&gt; ()) -&gt; ()"
+                  moduleName = "Playz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johan/Documents/Development/IOS/Playz-Ios/Playz/Playz/Database/Utilities/AuthService.swift"
+                  timestampString = "564526424.109198"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "92"
+                  endingLineNumber = "92"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
